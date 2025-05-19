@@ -57,7 +57,7 @@ const InputForm = ({ onResult }) => {
       const body = { algorithm, processes };
       if (isRR) body.quantum = quantum;
 
-      const res = await axios.post('http://13.53.205.46:5000/simulate', body);
+      const res = await axios.post('https://schedsim.me/simulate', body);
       onResult(res.data);
     } catch (err) {
       alert('Error: ' + err.response?.data?.error || err.message);
