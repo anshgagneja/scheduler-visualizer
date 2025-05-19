@@ -35,6 +35,7 @@ Built with **Node.js + Express** on the backend and **React + Bootstrap** on the
 
 ## 📁 Project Structure
 
+```yaml
 scheduler-visualizer:
   backend:
     algorithms: # Scheduling logic (fcfs.js, sjf.js, etc.)
@@ -49,6 +50,7 @@ scheduler-visualizer:
         - StatsTable.js
     - App.js
     - index.js
+```
 
 ## ⚙️ Setup Instructions
 
