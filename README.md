@@ -35,16 +35,20 @@ Built with **Node.js + Express** on the backend and **React + Bootstrap** on the
 
 ## 📁 Project Structure
 
-scheduler-visualizer/
-├── backend/
-│ ├── algorithms/ # Scheduling logic (fcfs.js, sjf.js, etc.)
-│ ├── routes/scheduler.js
-│ └── index.js
-├── frontend/
-│ ├── src/components/ # React components (InputForm, GanttChart, etc.)
-│ ├── App.js
-│ └── index.js
----
+scheduler-visualizer:
+  backend:
+    algorithms: # Scheduling logic (fcfs.js, sjf.js, etc.)
+    routes:
+      - scheduler.js
+    - index.js
+  frontend:
+    src:
+      components: # React components
+        - InputForm.js
+        - GanttChart.js
+        - StatsTable.js
+    - App.js
+    - index.js
 
 ## ⚙️ Setup Instructions
 
@@ -70,5 +74,4 @@ MIT – free to use, modify, and share.
 
 ---
 
-Want a shorter README for recruiters? Or want it formatted as a resume entry too?
 
